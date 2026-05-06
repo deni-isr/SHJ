@@ -16,4 +16,4 @@ Strapiin on mallinnettu dynaaminen tietorakenne:
 
 ## Esittelyvideo
 Katso projektin esittelyvideo ja demonstrointi tästä:
-[]
+[Video](https://drive.google.com/file/d/1kXCCL_CWEQ-Rnt8cNiFFT2sSOJge2D3r/view?usp=sharing)
