@@ -1,9 +1,5 @@
 # Kirjoituskonekauppa Pärnänen & Pojat 
 
-Tämä projekti on toteutettu osana julkaisujärjestelmien kurssia. Tarkoituksena oli testata ja rakentaa **Headless CMS** -ratkaisu, jossa taustajärjestelmä (backend) ja käyttöliittymä (frontend) on täysin erotettu toisistaan. 
-
-Valitsin julkaisujärjestelmäksi **Strapin** (versio 5).
-
 ## Tekniikat
 * **Backend (CMS):** Strapi v5
 * **Tietokanta:** SQLite
