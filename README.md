@@ -4,12 +4,12 @@ Tämä projekti on toteutettu osana julkaisujärjestelmien kurssia. Tarkoituksen
 
 Valitsin julkaisujärjestelmäksi **Strapin** (versio 5).
 
-## 🛠 Tekniikat
+## Tekniikat
 * **Backend (CMS):** Strapi v5
 * **Tietokanta:** SQLite
 * **Frontend:** Vanilla HTML, CSS ja JavaScript
 
-## 🗂 Tietorakenne (Content Types)
+## Tietorakenne (Content Types)
 Strapiin on mallinnettu dynaaminen tietorakenne:
 * **Single Types (Yksittäiset rakenteet):**
   * `Etusivu` (Sivuston otsikko, esittelyteksti ja Hero-kuva)
