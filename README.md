@@ -13,3 +13,7 @@ Strapiin on mallinnettu dynaaminen tietorakenne:
 * **Collection Types (Kokoelmat):**
   * `Palvelu` (Pääkategoriat: Huolto, Myynti, Entisöinti. Sisältää nimen ja kuvauksen.)
   * `Tuote` (Yksittäiset kirjoituskoneet, esim. Olympia SM3 ja Remington. Yhdistetty **relaatiolla** (Relation) `Palvelu`-kategoriaan.
+
+## Esittelyvideo
+Katso projektin esittelyvideo ja demonstrointi tästä:
+[]
