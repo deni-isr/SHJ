@@ -1,18 +1,19 @@
-# Kirjoituskonekauppa Pärnänen & Pojat - CMS-testaus
+# Kirjoituskonekauppa Pärnänen & Pojat 
 
-Tämä projekti on tehty osana julkaisujärjestelmien kurssia. Valitsin testattavaksi järjestelmäksi **Strapin**, joka on suosittu avoimen lähdekoodin Headless CMS.
+Tämä projekti on toteutettu osana julkaisujärjestelmien kurssia. Tarkoituksena oli testata ja rakentaa **Headless CMS** -ratkaisu, jossa taustajärjestelmä (backend) ja käyttöliittymä (frontend) on täysin erotettu toisistaan. 
 
-## Testiympäristö
-- **CMS:** Strapi v4 (Node.js)
-- **Tietokanta:** SQLite (lokaali testiympäristö)
-- **Käyttöönotto:** Asennettu lokaalisti `npx create-strapi-app`-komennolla.
+Valitsin julkaisujärjestelmäksi **Strapin** (versio 5).
 
-## Toteutus
-Strapiin on luotu tehtävänannon mukainen tietorakenne (Content Types):
-- **Single Types:** Etusivu (Hero-osio) ja Yhteystiedot (Footer-tiedot).
-- **Collection Types:** Palvelut (Huolto, Myynti, Entisöinti).
+## 🛠 Tekniikat
+* **Backend (CMS):** Strapi v5
+* **Tietokanta:** SQLite
+* **Frontend:** Vanilla HTML, CSS ja JavaScript
 
-Koska kyseessä on Headless CMS, järjestelmä ei generoi valmista HTML-sivua, vaan tarjoaa datan REST API:n kautta JSON-muodossa mitä tahansa frontend-sovellusta (esim. React, Vue) varten.
-
-## Kuvakaappaukset
-*(Lisää tähän kuvakaappaukset Strapin admin-paneelista ja selaimen API-näkymästä)*
+## 🗂 Tietorakenne (Content Types)
+Strapiin on mallinnettu dynaaminen tietorakenne:
+* **Single Types (Yksittäiset rakenteet):**
+  * `Etusivu` (Sivuston otsikko, esittelyteksti ja Hero-kuva)
+  * `Yhteystiedot` (Yrityksen tarina ja yhteystiedot)
+* **Collection Types (Kokoelmat):**
+  * `Palvelu` (Pääkategoriat: Huolto, Myynti, Entisöinti. Sisältää nimen ja kuvauksen.)
+  * `Tuote` (Yksittäiset kirjoituskoneet, esim. Olympia SM3 ja Remington. Yhdistetty **relaatiolla** (Relation) `Palvelu`-kategoriaan.
